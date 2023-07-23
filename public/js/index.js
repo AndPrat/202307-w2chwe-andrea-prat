@@ -1,5 +1,5 @@
 import createBoard from "./board/board.js";
-import Cell from "./cell/cell.js";
+import Cell from "./Cell/Cell.js";
 
 console.log(createBoard());
 console.log(Cell);
