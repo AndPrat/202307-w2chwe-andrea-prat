@@ -1,7 +1,6 @@
-import createBoard from "./board/board.js";
-import Cell from "./Cell/Cell.js";
+import Grid from "./Grid/Grid.js";
 
-console.log(createBoard());
-console.log(Cell);
-
-Cell.toDie();
+const rows = 3;
+const columns = 3;
+const grid = new Grid().createGrid(rows, columns);
+console.table(grid);
